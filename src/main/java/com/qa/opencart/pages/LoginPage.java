@@ -30,7 +30,7 @@ public class LoginPage {
 	private By searchBar= By.name("search");
 	private By searchBtn= By.xpath("//button/i[@class='fa fa-search']");
 	private By addCartBtn= By.xpath("//button//span[@id='cart-total']");
-	private By newCustomerTxt= By.xpath("//h22[contains(text(),'New')]");
+	private By newCustomerTxt= By.xpath("//h2[contains(text(),'New')]");
 	private By continueBtn= By.linkText("Continue");
 	private By rightList= By.id("column-right");
 	private By footerLink= By.xpath("//footer//div[@class='row']");
